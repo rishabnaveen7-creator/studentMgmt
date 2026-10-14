@@ -63,6 +63,6 @@ Navigate directly into the project root directory and execute the project using 
     ```
 *   **Execute the application:**
     ```bash
-    mvn exec:java -Dexec.mainClass="com.example.Main"
+    mvn exec:java "-Dexec.mainClass=com.example.Main"
     ```
     *(Note: Replace `com.example.Main` with your actual main class path package).*
